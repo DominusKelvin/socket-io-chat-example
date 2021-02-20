@@ -1,0 +1,1 @@
+{"name":"practicing-socket-realtime","version":"0.0.1","description":"My first step in practicing Real-time","dependencies":{"express":"^4.17.1","socket.io":"^3.1.1"}}
