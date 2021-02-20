@@ -43,6 +43,13 @@
 		messages.appendChild(item)
 		window.scrollTo(0, document.body.scrollHeight)
 	})
+	socket.on('user disconnected', (message) => {
+		const item = document.createElement('li')
+		item.textContent = message
+		item.style.color = 'red'
+		messages.appendChild(item)
+		window.scrollTo(0, document.body.scrollHeight)
+	})
     </script>
   </body>
 </html>
